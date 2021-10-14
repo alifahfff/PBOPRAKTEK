@@ -27,6 +27,6 @@ public class RestaurantMain {
 			System.out.println("=========================");
 			menu.Pemesanan(makanan, pesanan);
 			System.out.println("Stok makanan tersisa");
-			menu.tampilMenuMakanan();
+			menu.tampilMenuMakanan();	
 	}
 }

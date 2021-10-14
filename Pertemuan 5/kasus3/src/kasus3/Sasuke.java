@@ -4,7 +4,7 @@ public class Sasuke extends Itachi {
 	String Dojutsu = "Sharingan";
 	
 	void printDojutsu() {
-		super.printDojutsu();
+		super.printDojutsu(); //untuk menampilkan super class dari dojutsu yaitu Rinegan
 		System.out.println(this.Dojutsu);
 	}
 }

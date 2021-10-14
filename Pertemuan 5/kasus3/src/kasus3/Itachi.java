@@ -10,7 +10,7 @@ public class Itachi extends Rikudo {
 	
 	void printDojutsu() {
 		System.out.println(this.Dojutsu);
-		setDojutsu();
+		setDojutsu(); //untuk memanggil void setDojutsu yang isi nya memanggil Mangekyou Sharingan
 		System.out.println(this.Dojutsu);
 	}
 	
