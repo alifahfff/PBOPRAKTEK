@@ -7,7 +7,7 @@ public class Idol {
 		public Idol(String name, String divisi)
 		{
 			this.name = name;
-			this.name = divisi;
+			this.divisi = divisi;
 		}
 		
 		public String getIdolName()

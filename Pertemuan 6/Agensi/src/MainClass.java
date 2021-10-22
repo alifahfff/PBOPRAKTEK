@@ -28,20 +28,23 @@ class MainClass
 		group.add(SKZ);
 		group.add(Hyung);
 		
-	// creating an instance of Institute.
+	// Aggregation
 		JYP jyp = new JYP("BITS", group);
-		System.out.print("Total Divisi StrayKids: ");
+		System.out.print("Total Member StrayKids: ");
 		System.out.print(jyp.getTotalIdolInJYP());
 		
 		List<Group> Gr = jyp.getTotal();
 		System.out.println();
-		for (Group idl : Gr) {
-			System.out.println("- " + idl.getName());
-		}
+		System.out.println("- " + i1.getIdolName());
+		System.out.println("- " + i2.getIdolName());
+		System.out.println("- " + i3.getIdolName());
+		System.out.println("- " + i4.getIdolName());
+		
+		
+		//Asosiation
+		BG bg = new BG("Stray Kids");
+		Member mbr = new Member("Han");
+		System.out.println(mbr.getMemberName()+" member dari " + bg.getBGName() );
 	}
 	
 }
-
-//	JYP jyp = new JYP("Stray Kids");
-//	Idol idl = new Idol("Changbin", "DivisiOne");
-//	System.out.println(idl.getIdolName() + " member " + jyp.getJYPName());
