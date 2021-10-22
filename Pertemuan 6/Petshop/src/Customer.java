@@ -1,4 +1,3 @@
-
 public class Customer {
 	private String NamaCustomer;
 	private String NoCustomer;

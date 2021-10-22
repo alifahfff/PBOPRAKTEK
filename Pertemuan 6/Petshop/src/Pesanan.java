@@ -1,4 +1,5 @@
 import java.util.*;
+import java.io.*;
 
 public class Pesanan {
 	public static void main(String[]args) {
@@ -55,15 +56,5 @@ public class Pesanan {
 		toko.setTotalHarga(pilih);
 		customer.InfoCustomer();
 		toko.BuatPesanan();
-	}
-}
-
-
-
-class mamalia {
-	String name;
-	int jumlahkaki;
-	void attack(){
-		System.out.println("Lucu");
 	}
 }
